@@ -1,5 +1,5 @@
 // Solar Voyager 서비스 워커: 한 번 접속하면 오프라인에서도 실행되도록 파일을 저장해 둡니다.
-const CACHE = 'solar-voyager-v4';
+const CACHE = 'solar-voyager-v22';
 
 const LOCAL = [
   './',
@@ -9,6 +9,7 @@ const LOCAL = [
   './icons/icon-512.png',
   './icons/maskable-512.png',
   './icons/apple-touch-icon.png',
+  './icons/favicon-32.png',
 ];
 // 3D 엔진(Three.js)과 글꼴은 CDN에서 받아 함께 저장
 const REMOTE = [
